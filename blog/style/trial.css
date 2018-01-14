@@ -1,0 +1,98 @@
+nav{
+    width: 100%;
+    position: absolute;
+    top:0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+  }  
+  
+nav li {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 100px;
+    background-color: white;
+    color: grey;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+  }
+  a:hover, a:active {
+      background-color: lightgray;
+  }
+
+  img {
+    padding: 70px 50px 20px 50px;
+  }
+
+  body {
+    font-family: arial;
+  }
+
+  p {
+    text-align: left;
+    padding: 10px;
+    color: rgb(116, 116, 116);
+  }
+
+  h3, h4{ 
+      color: rgb(116, 116, 116)
+}
+
+
+ 
+  
+  .box {
+      
+      top: 30px;
+    margin: 0 auto;
+    background-color: lightgoldenrodyellow;
+    width: 600px; 
+    height: 1000px;
+    padding: 70px 50px 20px 50px;
+  }
+
+
+  div.background {
+    background: url(profile.jpeg) no-repeat;
+    background-position-y: -100px;
+    border: 2px solid white;
+    background-size: 100% 125% ;
+  }
+  
+  div.transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: none;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+  }
+  
+  div.transbox p {
+    margin: 20%;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 3%;
+    padding: 10%;
+  }  
+  li {
+    float: left;
+}
+  
+
+footer {
+    padding: 20px;
+    color: rgb(116, 116, 116)
+}

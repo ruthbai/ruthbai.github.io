@@ -1,11 +1,30 @@
 
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}  <!-- deleting bulletpoints and making the category go left to right -->
+
+
+a{
+  display: block;
+  width: 120px;
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+}
+
+
 body {
   background-color: white; 
   font-family: arial;
   text-align: center;
 }
 
-h2, h3 { text-align: left;}
+h2, h3 { text-align: left;} 
 
 h4 {color: white;}
 
@@ -28,5 +47,5 @@ p { font-family: arial;
   padding: 70px 50px 20px 50px;
 }
 
-nav ul li {list-style-type: none;}
+
 
