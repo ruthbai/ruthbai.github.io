@@ -90,6 +90,17 @@ a:link, a:visited {
   li {
     float: left;
 }
+
+
+.olcolor {
+  color:rgb(116, 116, 116)
+}
+
+ol {
+  display:inline-block; 
+  margin-bottom: 30px;
+  margin-right: 50px;
+}  
   
 
 footer {
