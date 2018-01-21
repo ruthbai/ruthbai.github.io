@@ -1,3 +1,97 @@
+*{
+	box-sizing: border-box;
+}
+
+body { 
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+
+header {
+	/* position: absolute; */
+	margin-top: 1em;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+} 
+
+.container {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.home-h1 {
+	font-size: 1.8rem;
+	margin-bottom: 1.5em;
+}
+
+.home-h1 span {
+	font-weight: 10;
+	display: block;
+}
+
+.button {
+	display: inline-block;
+	font-size: 1.15rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-width: 2px;
+	border-style: solid;
+	padding: .5em 1.75em;
+}
+
+.button-accent {
+	color: #dad87c;
+}
 
 
+.button-accent:hover, .button-accent:active {
+	color: #fcfa8e);
+}
 
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a {
+	font-weight: 900;
+	text-decoration: none; /* removes underline under nav category name */
+	text-transform: uppercase;
+	font-size: .8rem;
+	padding: .5em; /* creates space around category name for mobile. */
+	color: rgb(116, 116, 116)
+}
+
+a:hover, a:active {
+	color: rgb(163, 163, 163);
+}
+
+.home-h1 {
+	color: white;
+}
+
+.home-hero {
+	background-image:
+	url(profile.jpg);
+	padding: 10em 0;
+	background-size: cover;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+
+footer {
+    padding: 20px;
+    color: rgb(116, 116, 116)
+}
