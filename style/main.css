@@ -90,8 +90,43 @@ a:hover, a:active {
 	background-attachment: fixed;
 }
 
+.p {
+	color: rgb(116, 116, 116)
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 2em 12em 2em 12em;
+	padding: 0 3px;
+  }
+
+  .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+
+  /* Responsive layout - makes a two column-layout instead of four columns */
+@media (max-width: 800px) {
+	.column {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+
 
 footer {
     padding: 20px;
     color: rgb(116, 116, 116)
 }
+
+
