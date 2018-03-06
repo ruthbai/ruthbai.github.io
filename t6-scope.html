@@ -40,9 +40,20 @@
     </h3>
 
     <p>
-        
+        In the world of Javascript, scope is basically a fancy word for availability. Is this varaible something I can 
+        access from where I am now?. There are two main scopes 'global scope' and 'local scope'. 
+        Global scope means that the variable you declare are available everywhere in your application. 
+        Local scope means variables are self-contained to just the function you decleared the variable in. 
     </p>
-
+    <p>
+        Global scope Ex) var counter = 0; (varaiable is declared), function returnCount() { return counter; } (Because counter 
+        has been declared earlier on globally this function can access variable).
+    </p>
+    <p>
+        Local scope Ex) function setState() {var state = "on"; alert(state)//on} (In here variable state has been
+        declared locally so alert underneath this var state could be defined). setState(); alert (state) // undefined
+        (becuase variable State has not been defined on the second one alert state would be undefined).
+    </p>
     
  <p> <I>technical blog6</I> scope</p>
 </div>
