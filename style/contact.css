@@ -1,0 +1,102 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+    font-family: 'Raleway', sans-serif;
+	text-align: center;
+}
+#main{
+    position: absolute;
+    top:35%;
+    left: 45%;
+}
+#side1{
+    height: 225px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(0px) scale(1.5);
+    z-index: 99;
+    border: 2px solid #ffffff;
+    transition: all .5s;
+}
+#side2{
+    height: 225px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(-100px);
+    z-index: 9;
+    border: 2px solid #ffffff;
+    transition: all .5s;
+}
+#side3{
+    height: 225px;
+    width: 200px;
+    position: absolute;
+    transform: translateX(100px);
+    z-index: 9;
+    border: 2px solid #ffffff;
+    transition: all .5s;
+}
+#pre{
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(199, 199, 199);
+    font-family: arial;
+    font-size: 15px;
+    color:rgb(199, 199, 199);
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top:50%;
+    left: 20%;
+}
+#pre:hover{
+    cursor: pointer;
+}
+#nex{
+    height: 30px;
+    width: 100px;
+    border: 2px solid rgb(199, 199, 199);
+    font-family: arial;
+    font-size: 15px;
+    color:rgb(199, 199, 199);
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    top:50%;
+    right: 20%;
+}
+#nex:hover{
+    cursor: pointer;
+}
+
+header {
+	/* position: absolute; */
+    margin-top: 1em;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin: 1em;
+}
+
+nav a {
+	font-weight: 900;
+	text-decoration: none; /* removes underline under nav category name */
+	text-transform: uppercase;
+	font-size: .8rem;
+	padding: .5em; /* creates space around category name for mobile. */
+	color: rgb(116, 116, 116)
+}
+
+a:hover, a:active {
+	color: rgb(163, 163, 163);
+}
+
+
